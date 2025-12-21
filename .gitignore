@@ -1,0 +1,56 @@
+
+
+# Артефакты сборки CMake
+build/
+cmake-build-*/
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# Скомпилированные файлы
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# IDE файлы
+.idea/
+.vscode/
+*.user
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Исполняемые файлы проекта
+/caesar_cipher
+/test_cipher
+/test_json
+
+# Выходные файлы программы
+output*.json
+encrypted*.json
+decrypted*.json
+batch_out.json
+random_key.json
+
+# Логи операций
+data/operations.log
+*.log
+
+# Временные файлы
+*.tmp
+*.bak
+.temp/
+
+# Python кэш (если есть скрипты)
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules (если есть вспомогательные скрипты)
+node_modules/
