@@ -55,7 +55,7 @@ caesar-cipher/
 
 ```bash
 # Клонирование репозитория
-git clone [https://github.com/вашеимя/caesar-cipher.git](https://github.com/egorermolaev635-blip/lr_itog.git)
+git clone https://github.com/egorermolaev635-blip/lr_itog.git
 cd caesar-cipher
 
 # Создание директории сборки
